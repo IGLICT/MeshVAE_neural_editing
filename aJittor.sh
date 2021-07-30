@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python3 mainJittor.py \
+    --dataset=scape \
+    --logfolder=scape \
+    --mode=train \
+	--net_type=VAE \
+    --lambda0=1 \
+    --lambda1=5000 \
+    --lambda2=1 \
+    --lambda3=0.001 \
+    --lambda4=1 \
+    --ac_type=tanh
